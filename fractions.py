@@ -5,7 +5,7 @@ if answer == '4/3':
 elif answer == '6/8':
   print('Based on your answer, it appears you forgot the lowest common denominator.')
   answer1 = input('What number is the least common multiple between 2 and 6? ')
-  for i in answer1:
+  for i in answer1: # Apparnetly, a WHILE loop is better for inifinite loops
     if answer1 != 6:
       print('Try again.')
     elif answer1 == 6:
